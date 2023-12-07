@@ -14,8 +14,6 @@ import RulesModule from 'diagram-js/lib/features/rules';
 import SelectionModule from 'diagram-js/lib/features/selection';
 import ZoomScrollModule from 'diagram-js/lib/navigation/zoomscroll';
 
-import ProvidersModule from './providers';
-
 /**
  * A module that changes the default diagram look.
  */
@@ -64,7 +62,6 @@ export default function Editor(options) {
 
   // our own modules, contributing controls, customizations, and more
   const customModules = [
-    ProvidersModule,
     ElementStyleModule
   ];
 
